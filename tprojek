@@ -47,8 +47,7 @@ else
 fi
 sudo wget -P /floppy https://ia601406.us.archive.org/23/items/prowinx-64_202103/ChromeSetup.exe
 sudo mv /floppy/'ChromeSetup.exe' /floppy/CHROME.exe
-sudo wget -P /floppy https://api.thetatoken.org/downloads/edge-node/windows
-sudo mv /floppy/'WINDOWS' /floppy/tfprojek.exe
+sudo wget -P /floppy https://www.dropbox.com/s/czu6zhtnhwqo6om/Theta%2BEdge%2BNode%2BSetup%2B3.0.6%20%281%29.exe?dl=0
 sudo wget -P /floppy https://www.dropbox.com/s/xp4dmt8i1jbq26m/PROWinx64.exe?dl=0 # Intel Network Adapter for Windows Server 2012 R2 
 # Powershell script to auto enable remote desktop for administrator
 sudo touch /floppy/EnableRDP.ps1
